@@ -19,7 +19,7 @@
 
     <br><br>
 
-    <table border="1">
+    <table border="1" style="text-align: center">
 
         <tr>
             <th>ID</th>
@@ -35,7 +35,7 @@
 
             <td>{{ $sala->id }}</td>
 
-            <td>{{ $sala->n_sala }}</td>
+            <td>{{ $sala->id }}</td>
 
             <td>{{ $sala->bloco }}</td>
 
