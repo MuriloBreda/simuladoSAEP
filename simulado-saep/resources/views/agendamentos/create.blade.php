@@ -40,7 +40,7 @@
             @foreach($salas as $sala)
 
                 <option value="{{ $sala->id }}">
-                    {{ $sala->n_sala }}
+                    {{ $sala->bloco }} - {{ $sala->n_sala }}
                 </option>
 
             @endforeach
